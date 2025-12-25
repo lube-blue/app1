@@ -1,10 +1,10 @@
 h2 {
     font-size: 20px;
-    color: blue; /* เติม blue */
+    color: blue;  
 }
 
 .title {
     font-size: 16px;
     color: green;
-    text-decoration: underline; /* เติม underline */
+    text-decoration: underline; 
 }
