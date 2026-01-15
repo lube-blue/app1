@@ -1,5 +1,5 @@
 import React from 'react'
-import RefsArray from './refs-array'
+import MassageBox from './state-func'
 export default function App() {
-return <RefsArray/>
+return <MassageBox/>
 }
