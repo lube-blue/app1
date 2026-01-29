@@ -1,5 +1,11 @@
-import React from 'react'
-import MassageBox from './state-func'
+import React from 'react';
+import { userContext } from './context';
+import Header from './context-header';
+
 export default function App() {
-return <MassageBox/>
+  return (
+    <userContext.Provider value="Tom Jerry">
+      <Header />
+    </userContext.Provider>
+  );
 }
